@@ -94,7 +94,7 @@ const CardingSaldo = () => {
         <p className="mb-2">Saldo anda</p>
         <p className="mb-2 text-2xl md:text-4xl font-bold">
           {balance !== null ? 
-            (isBalanceVisible ? `Rp ${balance.toLocaleString()}` : 'Rp. *******') : 'Rp 0'}
+            (isBalanceVisible ? `Rp ${balance.toLocaleString()}` : 'Rp. ••••••') : 'Rp 0'}
         </p>
         {errorMessage && <p className="text-red-300">{errorMessage}</p>}
         <div className="flex items-center mt-4">

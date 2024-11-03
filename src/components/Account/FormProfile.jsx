@@ -117,6 +117,7 @@ const FormProfile = () => {
     <div className="flex w-full h-full items-center justify-center">
       <div className="w-full max-w-md px-4">
         <form className="w-full">
+          <label className="text-sm text-gray-500 font-bold">Email</label>
           <InputField
             name="email"
             placeholder="Masukkan email anda"
@@ -126,6 +127,7 @@ const FormProfile = () => {
             icon={faAt}
             disabled={!isEditing}
           />
+          <label className="text-sm text-gray-500 font-bold mt-4">Nama Depan</label>
           <InputField
             name="first_name"
             placeholder="Masukkan nama depan"
@@ -135,6 +137,7 @@ const FormProfile = () => {
             icon={faUser}
             disabled={!isEditing}
           />
+          <label className="text-sm text-gray-500 font-bold mt-4">Nama Belakang</label>
           <InputField
             name="last_name"
             placeholder="Masukkan nama belakang"
